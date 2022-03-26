@@ -28,11 +28,11 @@ main {
     width: 320px;
     height: 497px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 img {
-    border-radius: 10px;
+    border-radius: 15px;
     margin-top: 16px;
 }
 
@@ -59,9 +59,7 @@ img {
     margin-bottom: 0px;
     margin-top: 0px;
     width: 80%;
-}
-  
-
+} 
 .qr-text {
     font-family: 'Outfit';
     font-style: normal;
