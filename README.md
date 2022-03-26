@@ -18,6 +18,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://matrix1984.github.io/QR-code-component/) 
+- Solution URL: [QR-code-component](https://matrix1984.github.io/QR-code-component/) 
  
  
