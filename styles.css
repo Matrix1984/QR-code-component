@@ -1,27 +1,52 @@
-body{  
-    background-color:#F2F2F2; 
+body {
+    background-color:#d5e1ef;
     display: grid;
-    justify-content: center; 
+    justify-content: center;
     height: 100vh;
 }
- 
 
-main{ 
-    position:relative;
-    top:152px;
-    width:320px;
-    height:497px;  
+main {
+    position: relative;
+    top: 152px;
+    width: 320px;
+    height: 497px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
-img{
-    border-radius: 5px;
+img {
+    border-radius: 10px; 
 }
 
-.bar-code-container{
+.bar-code-container {
     display: grid;
     align-items: center;
     justify-items: center;
+    margin-bottom: 0px;
 }
- 
+
+.qr-title {
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width:80%;
+}
+
+.qr-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1875px;
+    color: #7D889E;
+    margin-top: 0px; 
+    width:80%;
+}
