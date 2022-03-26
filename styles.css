@@ -1,10 +1,22 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
+dfn, em, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt,
+dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
 body {
-    background-color:#d5e1ef;
+    background-color: #d5e1ef;
     display: grid;
     justify-content: center;
     height: 100vh;
@@ -20,19 +32,25 @@ main {
 }
 
 img {
-    border-radius: 10px; 
+    border-radius: 10px;
+    margin-top: 16px;
 }
 
-.bar-code-container {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    margin-bottom: 0px;
+.content-container  {
+    margin-top: 24px;
+}
+
+ .content-container > p{
+     margin:auto;
+ }
+
+.bar-code-container  { 
+    text-align: center;
 }
 
 .qr-title {
     font-family: Outfit;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 28px;
@@ -40,8 +58,9 @@ img {
     text-align: center;
     margin-bottom: 0px;
     margin-top: 0px;
-    width:80%;
-} 
+    width: 80%;
+}
+  
 
 .qr-text {
     font-family: 'Outfit';
@@ -51,7 +70,7 @@ img {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.1875px;
-    color: #7D889E;
-    margin-top: 0px; 
-    width:80%;
+    color: #7D889E; 
+    width: 80%;
+    margin-top: 16px !important;
 }
