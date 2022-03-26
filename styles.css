@@ -1,14 +1,14 @@
 body{  
     background-color:#F2F2F2; 
     display: grid;
-    justify-content: center;
-    align-content: center;
+    justify-content: center; 
     height: 100vh;
 }
  
 
-main{
+main{ 
     position:relative;
+    top:152px;
     width:320px;
     height:497px;  
     background-color: white;
